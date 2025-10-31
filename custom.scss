@@ -1,0 +1,49 @@
+@import "./scss/functions";
+@import "./scss/variables";
+
+$custom-colors: (
+  netflix: #141414,
+  r-netflix: #b90a11,
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$border-custom: (
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
+);
+
+$border-widths: map-merge($border-widths, $border-custom);
+
+//$btn-padding-y: 0.75rem;
+//$btn-padding-x: 2.5rem;
+//$grid-gutter-width: 0.5rem;
+//$card-bg: $dark;
+//$card-color: $info;
+//$card-border-radius: 2.5rem;
+//$border-radius: 2rem;
+
+main {
+  div {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.little {
+  p {
+    font-size: 13px;
+  }
+  flex: 1 1;
+}
+
+.littlest {
+  font-size: 8px;
+}
+
+
+@import "./scss/bootstrap.scss";
