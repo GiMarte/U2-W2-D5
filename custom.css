@@ -14,6 +14,17 @@ main div img {
   font-size: 8px;
 }
 
+#bottoncino {
+  left: 2px;
+  top: 65px;
+  border-radius: 50%;
+  transform: scale(0.7);
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding-bottom: 4px;
+}
+
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
